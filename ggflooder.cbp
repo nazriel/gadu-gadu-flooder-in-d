@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ggflooder" />
+		<Option pch_mode="2" />
+		<Option compiler="dmd" />
+		<Build>
+			<Target title="Debug">
+				<Option output="ggflooder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="dmd" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-debug" />
+				</Compiler>
+				<Linker>
+					<Add library="gtkd" />
+					<Add library="dl" />
+					<Add library="rt" />
+					<Add library="gadu" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../ggflooder" />
+			<Add directory="/home/naz/prg/" />
+		</Compiler>
+		<Unit filename="Controller/About.d" />
+		<Unit filename="Controller/Flooder.d" />
+		<Unit filename="Controller/Main.d" />
+		<Unit filename="Helpers/Gadu.d" />
+		<Unit filename="Helpers/Iconv.d" />
+		<Unit filename="Helpers/Intl.d" />
+		<Unit filename="Model/Main.d" />
+		<Unit filename="View/About.d" />
+		<Unit filename="View/Flooder.d" />
+		<Unit filename="View/Main.d" />
+		<Unit filename="main.d" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

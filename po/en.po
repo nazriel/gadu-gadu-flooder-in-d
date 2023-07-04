@@ -1,0 +1,110 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2011 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <nazriel@driv.pl>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GG Flooder 1.0\n"
+"Report-Msgid-Bugs-To: <nazriel@driv.pl>\n"
+"POT-Creation-Date: 2011-08-09 07:26+0200\n"
+"PO-Revision-Date: 2011-08-09 09:51+0100\n"
+"Last-Translator: Damian Ziemba <nazriel@driv.pl>\n"
+"Language-Team: English <en@translate.freefriends.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ggflooder.d:87
+#, c-format
+msgid "... sending messages to %d"
+msgstr "... sending messages to %d"
+
+#: ggflooder.d:157
+msgid "Only numbers are supported."
+msgstr "Only numbers are supported."
+
+#: ggflooder.d:180
+msgid "Flooding vip group member is not allowed!"
+msgstr "Flooding vip group member is not allowed!"
+
+#: ggflooder.d:208
+msgid ""
+"Small, multiplatform, l18n program allowing to send multiple messages from random numbers to one, specified reciver of Gadu-Gadu network IM client.\n"
+"\n"
+"Big thanks to Bartlomiej Garnuch and Malwina Libiszewska for beta testing. "
+msgstr ""
+"Small, multiplatform, l18n program allowing to send multiple messages from random numbers to one, specified reciver of Gadu-Gadu network IM client.\n"
+"\n"
+"Big thanks to Bartlomiej Garnuch and Malwina Libiszewska for beta testing. "
+
+#: mainWindow.xml:42
+msgid "GG Flooder"
+msgstr "GG Flooder"
+
+#: mainWindow.xml:59
+msgid "Nr GG"
+msgstr "Nr GG"
+
+#: mainWindow.xml:130
+msgid "Floods count"
+msgstr "Floods count"
+
+#: mainWindow.xml:188
+msgid "Delays (sec)"
+msgstr "Delays (sec)"
+
+#: mainWindow.xml:238
+msgid "Message"
+msgstr "Message"
+
+#. O programie
+#: mainWindow.xml:298
+msgid "About"
+msgstr "About"
+
+#: mainWindow.xml:337
+msgid ""
+"Hi there.\n"
+"Check out driv.pl"
+msgstr ""
+"Hi there.\n"
+"Check out driv.pl"
+
+#: progressWindow.xml:20
+msgid "Flooding"
+msgstr "Flooding"
+
+#: progressWindow.xml:39
+msgid "Please wait while ..."
+msgstr "Please wait while ..."
+
+#: aboutWindow.xml:159
+msgid "Authors"
+msgstr "Authors"
+
+#: aboutWindow.xml:187
+msgid "License"
+msgstr "License"
+
+#: aboutWindow.xml:214
+msgid "Close"
+msgstr "Close"
+
+#: aboutWindow.xml:214
+msgid "Quit"
+msgstr "Quit"
+
+msgid "Gadu-Gadu number of message receiver"
+msgstr "Gadu-Gadu number of message receiver"
+
+msgid "Quantity of numbers used to send messages"
+msgstr "Quantity of numbers used to send messages"
+
+msgid "Amount of time between sending every message. Presented in seconds"
+msgstr "Amount of time between sending every message. Presented in seconds"
+
+msgid "Text of the message. Maximum %d characters are allowed. Please do not past links into message, otherwise messages may be not delivered"
+msgstr "Text of the message. Maximum %d characters are allowed. Please do not past links into message, otherwise messages may be not delivered"

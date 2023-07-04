@@ -1,0 +1,113 @@
+# Polish translations for PACKAGE package
+# Polskie tłumaczenia dla pakietu PACKAGE.
+# Copyright (C) 2011 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <nazriel@driv.pl>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GG Flooder v1.0\n"
+"Report-Msgid-Bugs-To: <nazriel@driv.pl>\n"
+"POT-Creation-Date: 2011-08-09 07:26+0200\n"
+"PO-Revision-Date: 2011-08-09 09:53+0100\n"
+"Last-Translator: Damian Ziemba <nazriel@driv.pl>\n"
+"Language-Team: Polish <nazriel@driv.pl>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+
+#: ggflooder.d:87
+#, c-format
+msgid "... sending messages to %d"
+msgstr "...wysyłanie wiadomości do %d"
+
+#: ggflooder.d:157
+msgid "Only numbers are supported."
+msgstr "Jedynie cyfry są dozwolone."
+
+#: ggflooder.d:180
+msgid "Flooding vip group member is not allowed!"
+msgstr "Wysyłanie wiadomości do grupy zasłużonych jest niedozwolone!"
+
+#: ggflooder.d:208
+msgid ""
+"Small, multiplatform, l18n program allowing to send multiple messages from random numbers to one, specified reciver of Gadu-Gadu network IM client.\n"
+"\n"
+"Big thanks to Bartlomiej Garnuch and Malwina Libiszewska for beta testing. "
+msgstr ""
+"Mały, wieloplatformowy, wielojęzyczny program pozwalający na wysyłanie kilkunastu wiadomości jednocześnie z różnych numerów, do jednego, określonego odbiorcy sieci Gadu-Gadu.\n"
+"\n"
+"Wielkie podziękowania dla Bartłomieja Garnucha oraz Malwiny Libiszewskiej za beta testy."
+
+#: mainWindow.xml:42
+msgid "GG Flooder"
+msgstr "GG Flooder"
+
+#: mainWindow.xml:59
+msgid "Nr GG"
+msgstr "Numer GG"
+
+#: mainWindow.xml:130
+msgid "Floods count"
+msgstr "Ilość wiadomości"
+
+#: mainWindow.xml:188
+msgid "Delays (sec)"
+msgstr "Opóźnienie (sek)"
+
+#: mainWindow.xml:238
+msgid "Message"
+msgstr "Treść wiadomości"
+
+#. O programie
+#: mainWindow.xml:298
+msgid "About"
+msgstr "O programie"
+
+#: mainWindow.xml:337
+msgid ""
+"Hi there.\n"
+"Check out driv.pl"
+msgstr ""
+"Siemasz.\n"
+"Sprawdź koniecznie driv.pl"
+
+#: progressWindow.xml:20
+msgid "Flooding"
+msgstr "Wysyłanie"
+
+#: progressWindow.xml:39
+msgid "Please wait while ..."
+msgstr "Proszę czekaj gdy trwa ..."
+
+#: aboutWindow.xml:159
+msgid "Authors"
+msgstr "Autorzy"
+
+#: aboutWindow.xml:187
+msgid "License"
+msgstr "Licencja"
+
+#: aboutWindow.xml:214
+msgid "Close"
+msgstr "Zamknij"
+
+#: aboutWindow.xml:214
+msgid "Quit"
+msgstr "Wyjdź"
+
+msgid "Gadu-Gadu number of message receiver"
+msgstr "Numer Gadu-Gadu odbiory wiadomości"
+
+msgid "Quantity of numbers used to send messages"
+msgstr "Liczba numerów, z których zostaną wysłane wiadomości"
+
+msgid "Amount of time between sending every message. Presented in seconds"
+msgstr "Długość przerwy, która będzie następywać między kolejnymi wysłaniami wiadomości. Wyrażana jest w sekundach"
+
+msgid "Text of the message. Maximum %d characters are allowed. Please do not past links into message, otherwise messages may be not delivered"
+msgstr "Treść wiadomości, w której maksymalnie można umieścić %d znaków. Proszę, nie wklejać w wiadomość linków, ponieważ wiadomości mogą zostać nie dostarczone"
